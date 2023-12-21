@@ -5,6 +5,7 @@ import fullImg from '../Assets/Img/fullsatck sv.png'
 
 import "../Styles/quizStarter.css"
 
+
 const QuizStarter = ( {onStartQuiz} ) => {
   return (
     <div>

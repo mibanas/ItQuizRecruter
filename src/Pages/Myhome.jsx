@@ -7,10 +7,10 @@ import About from '../Composants/About'
 const Myhome = () => {
   return (
   <div>
-        <Header />
-        <Routes>
-            <Route path='/about' element={<About />}/>
-        </Routes>
+      <Header />
+      <Routes>
+          <Route path='/about' element={<About />}/>
+      </Routes>
   </div>
   )
 }
