@@ -7,28 +7,27 @@ import "../Styles/quizStarter.css"
 
 
 const QuizStarter = ( {onStartQuiz} ) => {
+  console.log(onStartQuiz);
   return (
     <div>
-      <body>
     <h1>Choisissez Votre Stack:</h1>
-    <section class="cards">
-        <div class="card">
+    <section className="cards">
+        <div className="card">
             <img src={backImg} alt="" />
             <h2>Full Stack</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum eveniet, r</p>
         </div>
-        <div class="card">
+        <div className="card">
             <img src={frontImg} alt="" />
             <h2>Front End</h2>
             <p>Lorem ipsum dolor sit amet,consectetur adipisicin gelit. Dolorume veniet,r</p>
         </div>
-        <div class="card">
+        <div className="card">
             <img src={fullImg} alt="" />
             <h2>Back End</h2>
             <p>Lorem ipsumdolo rsitamet,cons ectetur adipisici ngelit.Dolor umevenie t,r</p>
         </div>
     </section>
-</body>
     </div>
   )
 }
