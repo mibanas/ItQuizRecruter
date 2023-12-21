@@ -1,0 +1,122 @@
+[
+  {
+    question: "Quel préprocesseur CSS est souvent utilisé avec React.js?",
+    options: [
+      "Sass",
+      "Less",
+      "Stylus",
+      "CSS pur sans préprocesseur"
+    ],
+    correctAnswerIndex: 0
+  },
+  {
+    question: "Quelle méthode React est utilisée pour mettre à jour l'état d'un composant?",
+    options: [
+      "setState",
+      "updateState",
+      "changeState",
+      "modifyState"
+    ],
+    correctAnswerIndex: 0
+  },
+  {
+    question: "Quelle est la fonction de Webpack dans le développement front-end?",
+    options: [
+      "Emballer et optimiser les ressources",
+      "Gérer les routes dans une application React",
+      "Effectuer des requêtes HTTP",
+      "Créer des composants React"
+    ],
+    correctAnswerIndex: 0
+  },
+  {
+    question: "Qu'est-ce que JSX?",
+    options: [
+      "JavaScript XML",
+      "JavaScript Extension",
+      "JavaScript Syntax Extension",
+      "JavaScript Style XML"
+    ],
+    correctAnswerIndex: 0
+  },
+  {
+    question: "Quel hook React est utilisé pour effectuer des actions après le rendu?",
+    options: [
+      "useEffect",
+      "useRender",
+      "useLifecycle",
+      "usePostRender"
+    ],
+    correctAnswerIndex: 0
+  },
+  {
+    question: "Quel est le but du fichier package.json dans un projet Node.js?",
+    options: [
+      "Gérer les dépendances et configurer le projet",
+      "Définir les styles CSS du projet",
+      "Stocker les fichiers de base de données",
+      "Configurer les routes de l'application"
+    ],
+    correctAnswerIndex: 0
+  },
+  {
+    question: "Quel est le rôle de Babel dans un projet React?",
+    options: [
+      "Transpiler le code JSX en JavaScript",
+      "Gérer les états globaux de l'application",
+      "Configurer les routes de l'application",
+      "Optimiser les requêtes HTTP"
+    ],
+    correctAnswerIndex: 0
+  },
+  {
+    question: "Quelle bibliothèque est souvent utilisée pour gérer les styles dans un projet React?",
+    options: [
+      "Styled Components",
+      "React Styles",
+      "CSS-in-JS",
+      "React Styling Library"
+    ],
+    correctAnswerIndex: 0
+  },
+  {
+    question: "Comment peut-on gérer les formulaires dans React?",
+    options: [
+      "En utilisant l'état local et les gestionnaires d'événements",
+      "En utilisant les requêtes HTTP",
+      "En utilisant Express.js",
+      "En utilisant Redux"
+    ],
+    correctAnswerIndex: 0
+  },
+  {
+    question: "Quelle fonctionnalité de React permet d'optimiser les performances en évitant le rendu inutile?",
+    options: [
+      "React.memo",
+      "React.optimize",
+      "React.pure",
+      "React.shouldUpdate"
+    ],
+    correctAnswerIndex: 0
+  },
+  {
+    question: "Quel est le rôle de Node.js dans la stack MERN?",
+    options: [
+      "Exécuter le code JavaScript côté serveur",
+      "Gérer la logique métier de l'application",
+      "Stocker les données de l'application",
+      "Configurer les routes de l'application"
+    ],
+    correctAnswerIndex: 0
+  },
+  {
+    question: "Qu'est-ce que MongoDB?",
+    options: [
+      "Une base de données NoSQL",
+      "Un serveur web",
+      "Un gestionnaire de paquets Node.js",
+      "Un langage de programmation"
+    ],
+    correctAnswerIndex: 0
+  }
+];
