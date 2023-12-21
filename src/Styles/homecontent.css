@@ -1,28 +1,31 @@
 .homecontent{
-    background-color: aliceblue;
+    position: relative;
+    width: 100%;
 }
 
-.home2 {
+.home1 {
+    position: absolute;
     z-index: -1;
-}
-
-.home3 {
+    width: 100%;
+  }
+  
+  .home2 {
+    position: absolute;
     z-index: -2;
-}
+    width: 100%;
+  }
+  
+  .home3 {
+    position: absolute;
+    z-index: -3;
+    width: 100%;
+  }
 
 #pic1 {
     width: 50%;
 }
 
-#pic2 {
-    width: 100%;
-}
-#pic3 {
-    width: 100%;
-    position: relative  ; 
-    /* top: 180px; */
-    z-index: -1;
-}
+
 /* 
 h1{
     text-align:center;
