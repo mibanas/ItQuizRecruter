@@ -1,6 +1,11 @@
-import Front from './Front.jsonn'
+import frontEnd from './Front.json';
+import backEnd from './Back.json';
+import fullStack from './Fullstack.json';
 
+const data = {
+  frontEnd: frontEnd ,
+  backEnd: backEnd,
+  fullStack: fullStack 
+};
 
-// export const exemple = 'dsfds'
-
-export default Front 
+export default data;

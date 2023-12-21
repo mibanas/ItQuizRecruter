@@ -1,124 +1,122 @@
 [
-    {
-      question: "Qu'est-ce que MongoDB?",
-      options: [
-        "Une base de données NoSQL",
-        "Un serveur web",
-        "Un gestionnaire de paquets Node.js",
-        "Un langage de programmation"
-      ],
-      correctAnswerIndex: 0
-    },
-    {
-      question: "Quelle est la fonction d'Express.js dans la stack MERN?",
-      options: [
-        "Framework pour construire des applications web",
-        "Bibliothèque de gestion d'état",
-        "Bibliothèque de styles pour React",
-        "Serveur de base de données"
-      ],
-      correctAnswerIndex: 0
-    },
-    {
-      question: "Quel est le rôle de React.js dans la stack MERN?",
-      options: [
-        "Bibliothèque de développement front-end",
-        "Serveur web",
-        "Base de données NoSQL",
-        "Framework de gestion d'état"
-      ],
-      correctAnswerIndex: 0
-    },
-    {
-      question: "Quelle méthode HTTP est utilisée pour récupérer des données du serveur dans une requête RESTful?",
-      options: [
-        "GET",
-        "POST",
-        "PUT",
-        "DELETE"
-      ],
-      correctAnswerIndex: 0
-    },
-    {
-      question: "Quelle bibliothèque Node.js est souvent utilisée pour gérer les requêtes HTTP?",
-      options: [
-        "Express.js",
-        "React.js",
-        "MongoDB",
-        "Mongoose"
-      ],
-      correctAnswerIndex: 0
-    },
-    {
-      question: "Quelle méthode est utilisée pour gérer les erreurs asynchrones dans Node.js?",
-      options: [
-        "Callbacks",
-        "Promises",
-        "Async/await",
-        "Toutes les réponses ci-dessus"
-      ],
-      correctAnswerIndex: 3
-    },
-    {
-      question: "Quelle est la fonction principale de Mongoose dans un projet MERN?",
-      options: [
-        "Outil d'ODM (Object-Document Mapping) pour MongoDB",
-        "Bibliothèque de gestion d'état pour React",
-        "Serveur web pour Express.js",
-        "Outil de transpilation pour Node.js"
-      ],
-      correctAnswerIndex: 0
-    },
-    {
-      question: "Quelle fonctionnalité de React permet d'optimiser les performances en évitant le rendu inutile?",
-      options: [
-        "React.memo",
-        "React.optimize",
-        "React.pure",
-        "React.shouldUpdate"
-      ],
-      correctAnswerIndex: 0
-    },
-    {
-      question: "Quelle est la différence entre PUT et POST dans le contexte des requêtes HTTP?",
-      options: [
-        "PUT est utilisé pour mettre à jour une ressource existante, POST est utilisé pour créer une nouvelle ressource",
-        "POST est utilisé pour mettre à jour une ressource existante, PUT est utilisé pour créer une nouvelle ressource",
-        "PUT est utilisé pour créer une nouvelle ressource, POST est utilisé pour mettre à jour une ressource existante",
-        "PUT et POST peuvent être utilisés de manière interchangeable"
-      ],
-      correctAnswerIndex: 0
-    },
-    {
-      question: "Quel est le rôle de Webpack dans le développement front-end?",
-      options: [
-        "Emballer et optimiser les ressources",
-        "Gérer les routes dans une application React",
-        "Effectuer des requêtes HTTP",
-        "Créer des composants React"
-      ],
-      correctAnswerIndex: 0
-    },
-    {
-      question: "Quel module Node.js est utilisé pour interagir avec une base de données MongoDB?",
-      options: [
-        "Mongoose",
-        "Express",
-        "React",
-        "NodeDB"
-      ],
-      correctAnswerIndex: 0
-    },
-    {
-      question: "Qu'est-ce que npm?",
-      options: [
-        "Node Package Manager, utilisé pour gérer les dépendances d'un projet",
-        "Node Project Manager, utilisé pour gérer les projets Node.js",
-        "Node Process Manager, utilisé pour gérer les processus Node.js",
-        "Toutes les réponses ci-dessus"
-      ],
-      correctAnswerIndex: 0
-    }
-  ];
-  
-  
+  {
+    "question": "Qu'est-ce que MongoDB?",
+    "options": [
+      "Une base de données NoSQL",
+      "Un serveur web",
+      "Un gestionnaire de paquets Node.js",
+      "Un langage de programmation"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Quelle est la fonction d'Express.js dans la stack MERN?",
+    "options": [
+      "Framework pour construire des applications web",
+      "Bibliothèque de gestion d'état",
+      "Bibliothèque de styles pour React",
+      "Serveur de base de données"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Quel est le rôle de React.js dans la stack MERN?",
+    "options": [
+      "Bibliothèque de développement front-end",
+      "Serveur web",
+      "Base de données NoSQL",
+      "Framework de gestion d'état"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Quelle méthode HTTP est utilisée pour récupérer des données du serveur dans une requête RESTful?",
+    "options": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Quelle bibliothèque Node.js est souvent utilisée pour gérer les requêtes HTTP?",
+    "options": [
+      "Express.js",
+      "React.js",
+      "MongoDB",
+      "Mongoose"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Quelle méthode est utilisée pour gérer les erreurs asynchrones dans Node.js?",
+    "options": [
+      "Callbacks",
+      "Promises",
+      "Async/await",
+      "Toutes les réponses ci-dessus"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "question": "Quelle est la fonction principale de Mongoose dans un projet MERN?",
+    "options": [
+      "Outil d'ODM (Object-Document Mapping) pour MongoDB",
+      "Bibliothèque de gestion d'état pour React",
+      "Serveur web pour Express.js",
+      "Outil de transpilation pour Node.js"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Quelle fonctionnalité de React permet d'optimiser les performances en évitant le rendu inutile?",
+    "options": [
+      "React.memo",
+      "React.optimize",
+      "React.pure",
+      "React.shouldUpdate"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Quelle est la différence entre PUT et POST dans le contexte des requêtes HTTP?",
+    "options": [
+      "PUT est utilisé pour mettre à jour une ressource existante, POST est utilisé pour créer une nouvelle ressource",
+      "POST est utilisé pour mettre à jour une ressource existante, PUT est utilisé pour créer une nouvelle ressource",
+      "PUT est utilisé pour créer une nouvelle ressource, POST est utilisé pour mettre à jour une ressource existante",
+      "PUT et POST peuvent être utilisés de manière interchangeable"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Quel est le rôle de Webpack dans le développement front-end?",
+    "options": [
+      "Emballer et optimiser les ressources",
+      "Gérer les routes dans une application React",
+      "Effectuer des requêtes HTTP",
+      "Créer des composants React"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Quel module Node.js est utilisé pour interagir avec une base de données MongoDB?",
+    "options": [
+      "Mongoose",
+      "Express",
+      "React",
+      "NodeDB"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Qu'est-ce que npm?",
+    "options": [
+      "Node Package Manager, utilisé pour gérer les dépendances d'un projet",
+      "Node Project Manager, utilisé pour gérer les projets Node.js",
+      "Node Process Manager, utilisé pour gérer les processus Node.js",
+      "Toutes les réponses ci-dessus"
+    ],
+    "correctAnswerIndex": 0
+  }
+]

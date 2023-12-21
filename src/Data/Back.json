@@ -1,123 +1,122 @@
 [
-    {
-      question: "Quel est le rôle d'Express.js dans la stack MERN?",
-      options: [
-        "Framework pour construire des applications web",
-        "Base de données NoSQL",
-        "Bibliothèque de gestion d'état",
-        "Bibliothèque de styles pour React"
-      ],
-      correctAnswerIndex: 0
-    },
-    {
-      question: "Quelle méthode HTTP est utilisée pour récupérer des données du serveur dans une requête RESTful?",
-      options: [
-        "GET",
-        "POST",
-        "PUT",
-        "DELETE"
-      ],
-      correctAnswerIndex: 0
-    },
-    {
-      question: "Qu'est-ce que MongoDB?",
-      options: [
-        "Une base de données NoSQL",
-        "Un serveur web",
-        "Un gestionnaire de paquets Node.js",
-        "Un langage de programmation"
-      ],
-      correctAnswerIndex: 0
-    },
-    {
-      question: "Quelle est la différence entre PUT et POST dans le contexte des requêtes HTTP?",
-      options: [
-        "PUT est utilisé pour mettre à jour une ressource existante, POST est utilisé pour créer une nouvelle ressource",
-        "POST est utilisé pour mettre à jour une ressource existante, PUT est utilisé pour créer une nouvelle ressource",
-        "PUT est utilisé pour créer une nouvelle ressource, POST est utilisé pour mettre à jour une ressource existante",
-        "PUT et POST peuvent être utilisés de manière interchangeable"
-      ],
-      correctAnswerIndex: 0
-    },
-    {
-      question: "Qu'est-ce que Node.js?",
-      options: [
-        "Un environnement d'exécution JavaScript côté serveur",
-        "Un framework JavaScript pour le développement front-end",
-        "Un gestionnaire de base de données NoSQL",
-        "Un langage de programmation"
-      ],
-      correctAnswerIndex: 0
-    },
-    {
-      question: "Quelle bibliothèque Node.js est souvent utilisée pour gérer les requêtes HTTP?",
-      options: [
-        "Express.js",
-        "React.js",
-        "MongoDB",
-        "Mongoose"
-      ],
-      correctAnswerIndex: 0
-    },
-    {
-      question: "Quel est le rôle de Mongoose dans un projet MERN?",
-      options: [
-        "Outil d'ODM (Object-Document Mapping) pour MongoDB",
-        "Bibliothèque de gestion d'état pour React",
-        "Serveur web pour Express.js",
-        "Outil de transpilation pour Node.js"
-      ],
-      correctAnswerIndex: 0
-    },
-    {
-      question: "Quelle est la différence entre une base de données SQL et une base de données NoSQL?",
-      options: [
-        "Les bases de données SQL sont relationnelles, tandis que les bases de données NoSQL sont non relationnelles",
-        "Les bases de données SQL sont non relationnelles, tandis que les bases de données NoSQL sont relationnelles",
-        "Il n'y a aucune différence, les termes sont interchangeables",
-        "Les bases de données SQL sont spécifiques à un langage, tandis que les bases de données NoSQL sont indépendantes du langage"
-      ],
-      correctAnswerIndex: 0
-    },
-    {
-      question: "Quelle méthode est utilisée pour gérer les erreurs asynchrones dans Node.js?",
-      options: [
-        "Callbacks",
-        "Promises",
-        "Async/await",
-        "Toutes les réponses ci-dessus"
-      ],
-      correctAnswerIndex: 3
-    },
-    {
-      question: "Qu'est-ce que npm?",
-      options: [
-        "Node Package Manager, utilisé pour gérer les dépendances d'un projet",
-        "Node Project Manager, utilisé pour gérer les projets Node.js",
-        "Node Process Manager, utilisé pour gérer les processus Node.js",
-        "Toutes les réponses ci-dessus"
-      ],
-      correctAnswerIndex: 0
-    },
-    {
-      question: "Quelle est la fonction principale de bodyParser dans Express.js?",
-      options: [
-        "Analyser les corps des requêtes HTTP",
-        "Gérer les routes de l'application",
-        "Créer des modèles de données MongoDB",
-        "Configurer les styles de l'application"
-      ],
-      correctAnswerIndex: 0
-    },
-    {
-      question: "Quel module Node.js est utilisé pour interagir avec une base de données MongoDB?",
-      options: [
-        "Mongoose",
-        "Express",
-        "React",
-        "NodeDB"
-      ],
-      correctAnswerIndex: 0
-    }
-  ];
-    
+  {
+    "question": "Quel est le rôle d'Express.js dans la stack MERN?",
+    "options": [
+      "Framework pour construire des applications web",
+      "Base de données NoSQL",
+      "Bibliothèque de gestion d'état",
+      "Bibliothèque de styles pour React"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Quelle méthode HTTP est utilisée pour récupérer des données du serveur dans une requête RESTful?",
+    "options": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Qu'est-ce que MongoDB?",
+    "options": [
+      "Une base de données NoSQL",
+      "Un serveur web",
+      "Un gestionnaire de paquets Node.js",
+      "Un langage de programmation"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Quelle est la différence entre PUT et POST dans le contexte des requêtes HTTP?",
+    "options": [
+      "PUT est utilisé pour mettre à jour une ressource existante, POST est utilisé pour créer une nouvelle ressource",
+      "POST est utilisé pour mettre à jour une ressource existante, PUT est utilisé pour créer une nouvelle ressource",
+      "PUT est utilisé pour créer une nouvelle ressource, POST est utilisé pour mettre à jour une ressource existante",
+      "PUT et POST peuvent être utilisés de manière interchangeable"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Qu'est-ce que Node.js?",
+    "options": [
+      "Un environnement d'exécution JavaScript côté serveur",
+      "Un framework JavaScript pour le développement front-end",
+      "Un gestionnaire de base de données NoSQL",
+      "Un langage de programmation"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Quelle bibliothèque Node.js est souvent utilisée pour gérer les requêtes HTTP?",
+    "options": [
+      "Express.js",
+      "React.js",
+      "MongoDB",
+      "Mongoose"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Quel est le rôle de Mongoose dans un projet MERN?",
+    "options": [
+      "Outil d'ODM (Object-Document Mapping) pour MongoDB",
+      "Bibliothèque de gestion d'état pour React",
+      "Serveur web pour Express.js",
+      "Outil de transpilation pour Node.js"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Quelle est la différence entre une base de données SQL et une base de données NoSQL?",
+    "options": [
+      "Les bases de données SQL sont relationnelles, tandis que les bases de données NoSQL sont non relationnelles",
+      "Les bases de données SQL sont non relationnelles, tandis que les bases de données NoSQL sont relationnelles",
+      "Il n'y a aucune différence, les termes sont interchangeables",
+      "Les bases de données SQL sont spécifiques à un langage, tandis que les bases de données NoSQL sont indépendantes du langage"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Quelle méthode est utilisée pour gérer les erreurs asynchrones dans Node.js?",
+    "options": [
+      "Callbacks",
+      "Promises",
+      "Async/await",
+      "Toutes les réponses ci-dessus"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "question": "Qu'est-ce que npm?",
+    "options": [
+      "Node Package Manager, utilisé pour gérer les dépendances d'un projet",
+      "Node Project Manager, utilisé pour gérer les projets Node.js",
+      "Node Process Manager, utilisé pour gérer les processus Node.js",
+      "Toutes les réponses ci-dessus"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Quelle est la fonction principale de bodyParser dans Express.js?",
+    "options": [
+      "Analyser les corps des requêtes HTTP",
+      "Gérer les routes de l'application",
+      "Créer des modèles de données MongoDB",
+      "Configurer les styles de l'application"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Quel module Node.js est utilisé pour interagir avec une base de données MongoDB?",
+    "options": [
+      "Mongoose",
+      "Express",
+      "React",
+      "NodeDB"
+    ],
+    "correctAnswerIndex": 0
+  }
+]

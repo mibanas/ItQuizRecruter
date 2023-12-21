@@ -1,25 +1,28 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../Styles/quizQuestions.css'
-
-
 
 const QuizQuestions = ({quizType}) => {
   return (
+
     <div className="content">
         <small id="timer">29</small>
         <h2>Quels outils et frameworks préférez-vous pour le développement frontend?</h2>
-        <div>
+        <div >
             <div className="choice">
                 <input type="checkbox" name="same" id="first" />
                 <label for="first">ReactJs</label>
             </div>
             <div className="choice">
-                <input type="checkbox" name="same" id="second" />
-                <label for="second">Angular</label>
+                <input type="checkbox" name="same" id="first" />
+                <label for="first">ReactJs</label>
             </div>
             <div className="choice">
-                <input type="checkbox" name="same" id="third" />
-                <label for="third">VueJS</label>
+                <input type="checkbox" name="same" id="first" />
+                <label for="first">ReactJs</label>
+            </div>
+            <div className="choice">
+                <input type="checkbox" name="same" id="first" />
+                <label for="first">ReactJs</label>
             </div>
         </div>
         <button>Submit</button>

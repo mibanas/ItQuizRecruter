@@ -2,9 +2,11 @@ import React, { useState } from 'react'
 import QuizStarter from '../Composants/QuizStarter';
 import QuizQuestions from '../Composants/QuizQuestions';
 import QuizResult from '../Composants/QuizResult';
+import data from '../Data/Question'
 
 const Quiz = () => {
   const [quizType, setQuizType] = useState(null);
+  const [quizFinish, setQuizFinish] = useState(null);
   const [quizStarted, setQuizStarted] = useState(false);
 
   const startQuiz = (type) => {
@@ -14,9 +16,9 @@ const Quiz = () => {
 
   return (
     <div>
-      {!quizStarted && <QuizStarter onStartQuiz={startQuiz} />}
-      {quizStarted && <QuizQuestions quizType={quizType} />}
-      {quizStarted && <QuizResult />}
+      {!quizStarted && <QuizStarter beginQuiz={startQuiz} />}
+      {quizStarted && <QuizQuestions quizType={quizType}  />}
+      {(quizStarted && quizFinish) && <QuizResult />}
   </div>
   )
 }
