@@ -1,0 +1,25 @@
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    display: flex;
+    margin-left: 50px;
+    padding-left: 0.091px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+
+}
+.btn{
+    padding: 0;
+    margin-right: 50px;
+}
