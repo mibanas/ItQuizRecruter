@@ -6,7 +6,7 @@ import data from '../Data/Question'
 
 const Quiz = () => {
   const [quizType, setQuizType] = useState(null);
-  const [quizFinish, setQuizFinish] = useState(null);
+  const [quizFinish, setQuizFinish] = useState(false);
   const [quizStarted, setQuizStarted] = useState(false);
 
   const startQuiz = (type) => {
@@ -18,7 +18,7 @@ const Quiz = () => {
     <div>
       {!quizStarted && <QuizStarter beginQuiz={startQuiz} />}
       {quizStarted && <QuizQuestions quizType={quizType}  />}
-      {(quizStarted && quizFinish) && <QuizResult />}
+      {!quizFinish && <QuizResult />}
   </div>
   )
 }
