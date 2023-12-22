@@ -23,10 +23,10 @@ const QuizQuestions = ({ quizType, updateScore, finishQuiz}) => {
             updateScore(0)
         }
         setCurrentQuestionIndex(currentQuestionIndex + 1)
-        setTimer(3)
+        setTimer(25)
     } 
 
-    const [timer, setTimer] = useState(3); 
+    const [timer, setTimer] = useState(25); 
 
     useEffect(() => {
         const intervalId = setTimeout(() => {
@@ -36,7 +36,7 @@ const QuizQuestions = ({ quizType, updateScore, finishQuiz}) => {
             setTimer((timer) => {
                 if (timer === 0) {
                     setCurrentQuestionIndex((currentQuestionIndex) => currentQuestionIndex + 1);
-                    return 3;
+                    return 25;
                 }
                 return timer - 1;
             });
