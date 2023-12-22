@@ -26,7 +26,7 @@ const Quiz = () => {
   }
 
   return (
-    <div className='quizbody'>
+    <div >
       {!quizStarted && <QuizStarter beginQuiz={startQuiz} />}
       {(quizStarted && !quizFinish) && <QuizQuestions quizType={quizType} updateScore={score} finishQuiz={showScore} />}
       {(quizStarted && quizFinish) && <QuizResult finalScore={correctAnswers} />}

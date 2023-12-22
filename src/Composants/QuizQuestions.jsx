@@ -65,7 +65,7 @@ const QuizQuestions = ({ quizType, updateScore, finishQuiz}) => {
             </div>
             ))}
         </div>
-        <button onClick={nextQuestion}>
+        <button id='validerbtn' onClick={nextQuestion}>
             Valider
         </button>
         </div>
