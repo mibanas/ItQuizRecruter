@@ -8,17 +8,26 @@ const Quiz = () => {
   const [quizType, setQuizType] = useState(null);
   const [quizFinish, setQuizFinish] = useState(false);
   const [quizStarted, setQuizStarted] = useState(false);
+  const [correctAnswers, setCorrectAnswers] = useState(0)
 
   const startQuiz = (type) => {
     setQuizType(type);
     setQuizStarted(true);
   };
 
+  const score = (MyScore) => {
+    setCorrectAnswers((correctAnswers) => correctAnswers + MyScore)
+  }
+
+  const showScore = () => {
+    setQuizFinish(!quizFinish)
+  }
+
   return (
     <div>
       {!quizStarted && <QuizStarter beginQuiz={startQuiz} />}
-      {quizStarted && <QuizQuestions quizType={quizType}  />}
-      {!quizFinish && <QuizResult />}
+      {(quizStarted && !quizFinish) && <QuizQuestions quizType={quizType} updateScore={score} finishQuiz={showScore} />}
+      {(quizStarted && quizFinish) && <QuizResult finalScore={correctAnswers} />}
   </div>
   )
 }

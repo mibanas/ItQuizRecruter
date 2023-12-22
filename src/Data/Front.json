@@ -17,7 +17,7 @@
       "changeState",
       "modifyState"
     ],
-    "correctAnswerIndex": 0
+    "correctAnswerIndex": 1
   },
   {
     "question": "Quelle est la fonction de Webpack dans le développement front-end?",
@@ -27,7 +27,7 @@
       "Effectuer des requêtes HTTP",
       "Créer des composants React"
     ],
-    "correctAnswerIndex": 0
+    "correctAnswerIndex": 2
   },
   {
     "question": "Qu'est-ce que JSX?",
@@ -37,7 +37,7 @@
       "JavaScript Syntax Extension",
       "JavaScript Style XML"
     ],
-    "correctAnswerIndex": 0
+    "correctAnswerIndex": 3
   },
   {
     "question": "Quel hook React est utilisé pour effectuer des actions après le rendu?",
@@ -57,7 +57,7 @@
       "Stocker les fichiers de base de données",
       "Configurer les routes de l'application"
     ],
-    "correctAnswerIndex": 0
+    "correctAnswerIndex": 1
   },
   {
     "question": "Quel est le rôle de Babel dans un projet React?",
@@ -67,7 +67,7 @@
       "Configurer les routes de l'application",
       "Optimiser les requêtes HTTP"
     ],
-    "correctAnswerIndex": 0
+    "correctAnswerIndex": 2
   },
   {
     "question": "Quelle bibliothèque est souvent utilisée pour gérer les styles dans un projet React?",
@@ -77,7 +77,7 @@
       "CSS-in-JS",
       "React Styling Library"
     ],
-    "correctAnswerIndex": 0
+    "correctAnswerIndex": 3
   },
   {
     "question": "Comment peut-on gérer les formulaires dans React?",
@@ -97,7 +97,7 @@
       "React.pure",
       "React.shouldUpdate"
     ],
-    "correctAnswerIndex": 0
+    "correctAnswerIndex": 1
   },
   {
     "question": "Quel est le rôle de Node.js dans la stack MERN?",
@@ -107,7 +107,7 @@
       "Stocker les données de l'application",
       "Configurer les routes de l'application"
     ],
-    "correctAnswerIndex": 0
+    "correctAnswerIndex": 2
   },
   {
     "question": "Qu'est-ce que MongoDB?",
@@ -117,6 +117,6 @@
       "Un gestionnaire de paquets Node.js",
       "Un langage de programmation"
     ],
-    "correctAnswerIndex": 0
+    "correctAnswerIndex": 3
   }
 ]
