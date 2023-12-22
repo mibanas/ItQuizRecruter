@@ -7,7 +7,7 @@ const QuizQuestions = ({ quizType, updateScore, finishQuiz}) => {
     const nbreQuestion = data[quizType].length
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
     const currentQuestion = mydata[currentQuestionIndex];
-    const [myAnswer, setMyAnswer] = useState(-1)
+    const [myAnswer, setMyAnswer] = useState(0)
 
     const handleOptionSelect = (optionIndex) => {
         setMyAnswer(optionIndex)
@@ -24,7 +24,6 @@ const QuizQuestions = ({ quizType, updateScore, finishQuiz}) => {
         }
         setCurrentQuestionIndex(currentQuestionIndex + 1)
         setTimer(3)
-        setMyAnswer(-1)
     } 
 
     const [timer, setTimer] = useState(3); 
@@ -57,7 +56,6 @@ const QuizQuestions = ({ quizType, updateScore, finishQuiz}) => {
             {currentQuestion.options.map((option, index) => (
             <div key={index} className="choice">
                 <input
-                checked={index === myAnswer}
                     type="radio"
                     name="options"
                     id={`option-${index}`}
