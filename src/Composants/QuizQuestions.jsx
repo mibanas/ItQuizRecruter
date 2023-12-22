@@ -7,7 +7,7 @@ const QuizQuestions = ({ quizType, updateScore, finishQuiz}) => {
     const nbreQuestion = data[quizType].length
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
     const currentQuestion = mydata[currentQuestionIndex];
-    const [myAnswer, setMyAnswer] = useState(0)
+    const [myAnswer, setMyAnswer] = useState(-1)
 
     const handleOptionSelect = (optionIndex) => {
         setMyAnswer(optionIndex)
@@ -24,12 +24,13 @@ const QuizQuestions = ({ quizType, updateScore, finishQuiz}) => {
         }
         setCurrentQuestionIndex(currentQuestionIndex + 1)
         setTimer(3)
+        setMyAnswer(-1)
     } 
 
     const [timer, setTimer] = useState(3); 
 
     useEffect(() => {
-        const intervalId = setInterval(() => {
+        const intervalId = setTimeout(() => {
             if (currentQuestionIndex >= nbreQuestion - 1) {
                 finishQuiz()
             }
@@ -42,8 +43,8 @@ const QuizQuestions = ({ quizType, updateScore, finishQuiz}) => {
             });
         }, 1000);
     
-        return () => clearInterval(intervalId);
-    }, []);
+        return () => clearTimeout(intervalId);
+    }, [timer]);
 
     
 
@@ -56,10 +57,10 @@ const QuizQuestions = ({ quizType, updateScore, finishQuiz}) => {
             {currentQuestion.options.map((option, index) => (
             <div key={index} className="choice">
                 <input
+                checked={index === myAnswer}
                     type="radio"
                     name="options"
                     id={`option-${index}`}
-                    checked={index === 0}
                     onChange={() => handleOptionSelect(index)}
                 />
                 <label htmlFor={`option-${index}`}>{option}</label>
