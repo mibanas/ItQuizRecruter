@@ -1,11 +1,14 @@
 import React from 'react'
+import "../Styles/quizResults.css"
+
 
 const QuizResult = ({finalScore}) => {
   return (
-    <div>
-        <h3>Quiz Results</h3>
-        <h3>{finalScore}</h3>
+    <div className='finalScore'>
+        <h3>Quiz Results:</h3>
+        <h3 id='lastscore'>{finalScore}/12</h3>
         {/* Affichez les résultats du quiz ici */}
+
   </div>
   )
 }

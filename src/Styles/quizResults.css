@@ -1,0 +1,27 @@
+.finalScore {
+    background-color: #243A5A;
+    width: 60%;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 300px;
+    border-radius: 2px;
+    border: 10px solid #2DF8BB;
+}
+
+.finalScore h3 {
+    margin-top: 100px;
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+}
+
+#lastscore {
+    background-color: aliceblue;
+    text-align: center;
+    color: black;
+    width: 100px;
+    margin-left: 45%;
+    border-right: 5px solid #2DF8BB;
+    border-left: 5px solid #2DF8BB;
+}
