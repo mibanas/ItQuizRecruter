@@ -3,6 +3,8 @@ import QuizStarter from '../Composants/QuizStarter';
 import QuizQuestions from '../Composants/QuizQuestions';
 import QuizResult from '../Composants/QuizResult';
 import data from '../Data/Question'
+import '../Styles/quiz.css'
+
 
 const Quiz = () => {
   const [quizType, setQuizType] = useState(null);
@@ -24,7 +26,7 @@ const Quiz = () => {
   }
 
   return (
-    <div>
+    <div className='quizbody'>
       {!quizStarted && <QuizStarter beginQuiz={startQuiz} />}
       {(quizStarted && !quizFinish) && <QuizQuestions quizType={quizType} updateScore={score} finishQuiz={showScore} />}
       {(quizStarted && quizFinish) && <QuizResult finalScore={correctAnswers} />}
