@@ -12,14 +12,13 @@ const MyContent = () => {
     <div className="homecontent">
         <div className="home1">
             <div>
-                <h1>Discover Your Expertise: Try Our Knowledge Test!</h1>
+                <h1>Discover Your <span>Expertise:</span> Try Our <span>Knowledge</span> Test!</h1>
                 <p>Embark on a comprehensive journey to assess your proficiency in both frontend and backend development with our Full-Stack Developer Quiz. This interactive quiz is meticulously crafted to challenge your understanding of programming languages.</p>
                 <Link id="btn2" to='/Quiz'>START Test</Link>
-                </div>     
-            <div>
+            </div>
             <img id="pic1" src={image2} alt=''/>
-            </div>       
-        </div> 
+              
+            </div> 
         <div className='home2'>
             <img id="pic2" src={vector1} alt=''/>
         </div> 
