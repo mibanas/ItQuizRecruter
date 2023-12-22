@@ -36,7 +36,7 @@ const QuizQuestions = ({ quizType, updateScore, finishQuiz}) => {
             setTimer((timer) => {
                 if (timer === 0) {
                     setCurrentQuestionIndex((currentQuestionIndex) => currentQuestionIndex + 1);
-                return 3;
+                    return 3;
                 }
                 return timer - 1;
             });
@@ -56,10 +56,11 @@ const QuizQuestions = ({ quizType, updateScore, finishQuiz}) => {
             {currentQuestion.options.map((option, index) => (
             <div key={index} className="choice">
                 <input
-                type="radio"
-                name="options"
-                id={`option-${index}`}
-                onChange={() => handleOptionSelect(index)}
+                    type="radio"
+                    name="options"
+                    id={`option-${index}`}
+                    checked={index === 0}
+                    onChange={() => handleOptionSelect(index)}
                 />
                 <label htmlFor={`option-${index}`}>{option}</label>
             </div>
